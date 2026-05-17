@@ -1,0 +1,22 @@
+streamlit
+langchain
+langchain-community
+langchain-text-splitters
+langchain-groq
+langchain-huggingface
+sentence-transformers
+chromadb
+pypdf
+python-dotenv
+pillow
+pytesseract
+opencv-python
+
+# rag-assistant/
+# ├── app.py                  # Streamlit UI
+# ├── document_processor.py   # Load PDF/TXT/Image + OCR
+# ├── vector_store.py         # HuggingFace embeddings + Chroma
+# ├── rag_chain.py            # Groq LLM + RAG
+# ├── .env                    # GROQ_API_KEY
+# ├── requirements.txt
+# └── chroma_db/              # Persisted vectors
